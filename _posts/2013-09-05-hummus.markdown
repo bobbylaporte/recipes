@@ -1,14 +1,17 @@
 ---
 layout: post
 title: Hummus
-date: 2013-09-05 09:56:42
+date: {}
 categories: Snacks Dip
+published: true
 ---
+
 {% contentfor ingredients %}
 - Chick Peas
 - Tahini
 - Lemon Juice
 - Olive Oil
+- Paprika (to taste)
 {% endcontentfor %}
 
 {% contentfor directions %}
