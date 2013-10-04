@@ -66,3 +66,70 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
+
+/* line 7, ../sass/screen.scss */
+body {
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* line 20, ../sass/screen.scss */
+.recipe h1 {
+  font-size: 32px;
+  margin: 15px 0;
+  font-weight: 900;
+}
+/* line 24, ../sass/screen.scss */
+.recipe h1 a {
+  color: blue;
+  text-decoration: none;
+}
+/* line 27, ../sass/screen.scss */
+.recipe h1 a:visited {
+  color: blue;
+}
+/* line 32, ../sass/screen.scss */
+.recipe .tags {
+  margin-bottom: 15px;
+}
+/* line 38, ../sass/screen.scss */
+.recipe section.ingredients, .recipe section.directions {
+  line-height: 1.4em;
+  background-repeat: repeat;
+}
+/* line 41, ../sass/screen.scss */
+.recipe section.ingredients h2, .recipe section.directions h2 {
+  font-weight: bold;
+  font-size: 20px;
+  margin: 15px;
+}
+/* line 46, ../sass/screen.scss */
+.recipe section.ingredients ul, .recipe section.ingredients ol, .recipe section.directions ul, .recipe section.directions ol {
+  margin-left: 15px;
+}
+/* line 51, ../sass/screen.scss */
+.recipe section.pictures li {
+  display: block;
+  width: 300px;
+  float: left;
+  margin-right: 15px;
+}
+/* line 56, ../sass/screen.scss */
+.recipe section.pictures li img {
+  width: 100%;
+}
+/* line 59, ../sass/screen.scss */
+.recipe section.pictures li:last-child {
+  margin-right: 0;
+}
+
+/* line 67, ../sass/screen.scss */
+.footer {
+  margin-top: 15px;
+  color: #fff;
+  background-color: #999;
+}
+/* line 71, ../sass/screen.scss */
+.footer p {
+  padding: 15px;
+}

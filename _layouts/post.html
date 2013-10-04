@@ -1,11 +1,28 @@
 ---
 layout: default
 ---
-<h2>{{ page.title }}</h2>
 <p class="meta">{{ page.date | date_to_string }}</p>
 
-<div class="post">
-<section>{% contentblock ingredients %}</section>
-<section>{% contentblock directions %}</section>
-<section>{% contentblock pictures %}</section>
-</div>
+    <div class="recipe">
+      <div class="row">
+  	    <h1 class="title"><a href="/">{{ page.title }}</a></h1>
+  	    <ul class="tags">
+          {{ page.tags }}
+        </ul>
+  	  </div>
+      <div class="row">
+      	<section class="pictures">
+      		{% contentblock pictures %}
+      	</section>
+      </div>
+      <div class="row">
+	  	<section class="ingredients columns six">
+	  		<h2>Ingredients</h2>
+	  		{% contentblock ingredients %}
+	  	</section>
+	  	<section class="directions columns six">
+	  		<h2>Directions</h2>
+	  		{% contentblock directions %}
+	  	</section>
+	  </div>
+	</div>

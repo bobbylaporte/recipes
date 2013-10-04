@@ -4,3 +4,71 @@
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
 @import "compass/reset";
+body{
+	font-size:16px;
+	font-family:'Open Sans', sans-serif;
+}
+
+.header{
+
+}
+
+
+
+
+.recipe{
+	h1{
+		font-size:32px;
+		margin:15px 0;
+		font-weight:900;
+		a{
+			color:blue;
+			text-decoration:none;
+			&:visited{
+				color:blue;
+			}
+		}
+	}
+	.tags{
+		margin-bottom:15px;
+		a{
+		}
+	}
+	section{
+		&.ingredients, &.directions{
+			line-height:1.4em;
+			background-repeat:repeat;
+			h2{
+				font-weight:bold;
+				font-size:20px;
+				margin:15px;
+			}
+			ul,ol{
+				margin-left:15px;
+			}
+		}
+		&.pictures{
+			li{
+				display:block;
+				width:300px;
+				float:left;
+				margin-right:15px;
+				img{
+					width:100%;
+				}
+				&:last-child{
+					margin-right:0;
+				}
+			}
+		}
+	}
+}
+
+.footer{
+	margin-top:15px;
+	color:#fff;
+	background-color:#999; 
+	p{
+		padding:15px;
+	}
+}

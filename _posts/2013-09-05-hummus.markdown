@@ -1,0 +1,21 @@
+---
+layout: post
+title: Hummus
+date: 2013-09-05 09:56:42
+categories: Snacks Dip
+---
+{% contentfor ingredients %}
+- Chick Peas
+- Tahini
+- Lemon Juice
+- Olive Oil
+{% endcontentfor %}
+
+{% contentfor directions %}
+1. Mix it together
+2. Eat
+{% endcontentfor %}
+
+{% contentfor pictures %}
+- ![alt text](/path/to/img.jpg "Title")
+{% endcontentfor %}
