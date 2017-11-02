@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Hummus
-date: {}
+date: 2013-10-28 14:44:05
 categories: Snacks Dip
 published: true
 ---
